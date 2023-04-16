@@ -1,0 +1,21 @@
+export const companies = [
+    { label: '.50%', className: 'text-red-500' },
+    { label: '.21%', className: 'text-red-500' },
+    { label: 'NIFY BANK' },
+    { label: '41,599', className: 'text-red-500' },
+    { label: '0.11%', className: 'text-red-500' },
+    { label: 'BALIFINCE', },
+    { label: '6435.50', className: 'text-red-500' },
+    { label: '0.35%', className: 'text-red-500' },
+    { label: 'BHARTIARTL' },
+    { label: '0.5', className: 'text-red-500' },
+    { label: '72%', className: 'text-red-500' },
+    { label: 'HDFCBANK', },
+    { label: '41,599', className: 'text-red-500' },
+    { label: '0.11%', className: 'text-red-500' },
+    { label: 'HINDUNLVR' },
+    { label: '6435.50', className: 'text-red-500' },
+    { label: 'INDIGO' },
+    { label: 'BHARTIARTL' },
+  ];
+  

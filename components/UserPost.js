@@ -11,7 +11,7 @@ const UserPost = (props) => {
     return (
         <>
             <div className='px-5 rounded-md shadow-[0_2px_6px_rgba(0,0,0,0.3)]'>
-                <div className='text-right text-blue-500 font-bold text-sm mb-2 pt-4' >{createAt}</div>
+                <div className='--when_post---  text-right text-blue-500 font-bold text-sm mb-2 pt-4' >{createAt}</div>
                 {postImage ? <div className='flex justify-center mb-2 items-center'>
                     <Image
                         src={postImage}
@@ -23,8 +23,6 @@ const UserPost = (props) => {
                     />
                 </div> : ""}
 
-
-                    {/* user details (avator,name and sector) */}
                 <div className='flex'>
                     <Image
                         src={userAvator}
@@ -40,13 +38,11 @@ const UserPost = (props) => {
                     </button>
                 </div>
 
-                     {/* user post description */}
+
                 <div className='pl-14 font-bold text-gray-500' >
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, rerum. Excepturi,
                     ducimus placeat fugit eveniet aliquam ut odit deleniti reiciendis!
                 </div>
-
-                {/* activity  */}
                 <div className='flex ml-12 mt-4 pb-4'>
                     <div className='flex justify-between w-11/12'>
                         <div className='flex items-center mx-2'>

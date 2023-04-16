@@ -1,12 +1,15 @@
+import MobileNav from './MobileNav'
 import Navbar from './Navbar'
 
 const Layout = ({ children }) => {
   return (
     <>
-
-    {/* for all routes navbar */}
       <Navbar />
       {children}
+
+      
+      {/* mobile navigation icons as like android */}
+      <MobileNav />
     </>
   )
 }

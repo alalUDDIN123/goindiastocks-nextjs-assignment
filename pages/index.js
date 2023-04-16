@@ -4,7 +4,10 @@ import MainContainer from '@/components/MainContainer'
 import MobileNav from '@/components/MobileNav'
 import NavLink from '@/components/NavLink'
 import PlusMark from '@/components/PlusMark'
+import { Inter } from 'next/font/google'
 
+
+const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -26,6 +29,8 @@ export default function Home() {
       <PlusMark />
 
 
+      {/* mobile navigation icons as like android */}
+      <MobileNav />
     </>
 
   )
