@@ -4,7 +4,7 @@ import Image from 'next/image';
 import React, { useState } from 'react'
 import { CiSearch } from "react-icons/ci"
 import { IoMdClose } from "react-icons/io"
-import { RxHamburgerMenu } from "react-icons/rx"
+import { RxAvatar } from "react-icons/rx"
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
@@ -16,23 +16,23 @@ function Navbar() {
                 <title>NextJS || Assignment | go india stock</title>
                 <link rel="icon" href="/logo.png" />
             </Head>
-            <nav className='flex justify-between items-center h-16 bg-white-800 shadow-md lg:px-10 sm:px-6 py-3;' >
+            <nav className='sticky top-0 left-0 bg-white z-10 flex justify-between items-center h-16 bg-white-800 shadow-md lg:px-10 sm:px-6 py-3; max-[425px]:px-3' >
                 {/* for logo */}
                 <div className='h-10 flex items-center'>
                     <Image src="/logo.png" alt="goIndiaStack"
                         width={60}
                         height={30}
                         className='h-7 md:h-8 lg:h-10 mx-auto'
-                       
+
                         priority={true}
                     />
                 </div>
 
                 {/* search bar  */}
-                <div className='flex items-center justify-between border border-gray-200 rounded-md px-2 py-1 w-2/4 sm:w-1/3 md:w-1/2 lg:w-2/5 xl:w-3/6 '>
+                <div className='flex items-center justify-between border  bg-gray-200 border-t-2 border-gray-300 rounded-md px-2 py-1 w-2/4 sm:w-1/3 md:w-1/2 lg:w-2/5 xl:w-3/6 '>
                     <div className='flex-grow'>
                         <input type="text"
-                            className='border-none outline-none px-2 py-1 text-base w-full h-full'
+                            className='border-none outline-none  bg-gray-200 text-black px-2 py-1 text-base w-full h-full'
                             placeholder='Search here...' />
                     </div>
                     <div className='mr-2' >
@@ -53,7 +53,7 @@ function Navbar() {
                     {isMenuOpen ? (
                         <IoMdClose onClick={() => setIsMenuOpen(!isMenuOpen)} />
                     ) : (
-                        <RxHamburgerMenu onClick={() => setIsMenuOpen(!isMenuOpen)} />
+                        <RxAvatar onClick={() => setIsMenuOpen(!isMenuOpen)} className='text-2xl' />
                     )}
                 </div>
 
