@@ -1,11 +1,26 @@
-import { useState } from 'react';
-import { mobileNavIcons } from "../data/MobileNav1"
+import { useState, useEffect } from 'react';
+import { mobileNavIcons } from "../data/MobileNav"
 
 const MobileNav = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
+
+
+  // I am using localStorage for tracking the which icon actually user click
+  // for showing which component or which tab user visting
+
+  useEffect(() => {
+    // Retriving index
+    const savedActiveIndex = localStorage.getItem('activeIndex');
+    if (savedActiveIndex !== null) {
+      setActiveIndex(parseInt(savedActiveIndex));
+    }
+  }, []);
+
   const handleClick = (index) => {
     setActiveIndex(index);
+    // saving index
+    localStorage.setItem('activeIndex', index);
   };
 
   return (
