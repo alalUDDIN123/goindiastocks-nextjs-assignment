@@ -4,7 +4,7 @@ import React from 'react';
 function NavLink() {
   return (
     <>
-      <div className='flex w-full items-center justify-between px-10 bg-black text-gray-200 overflow-x-auto overflex'>
+      <div className='flex w-full items-center gap-3 justify-between px-10 bg-black text-gray-200 overflow-x-auto overflex'>
 
         {/* Since p tag or compannies get reapeated so i store in a array of obj and simple did mapping */}
         {companies.map((company, index) => (

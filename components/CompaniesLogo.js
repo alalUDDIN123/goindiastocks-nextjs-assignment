@@ -28,13 +28,3 @@ function CompaniesLogo() {
 
 export default CompaniesLogo;
 
-{/* <div className="max-w-80 min-w-0">
-<Image
-  src={company.logo}
-  width={80}
-  height={80}
-  priority={true}
-  alt={`Company logo ${index}`}
-  style={{ height: "30px" }}
-/>
-</div> */}

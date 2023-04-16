@@ -16,7 +16,7 @@ const SideBar = () => {
 
     return (
 
-        <div className={`bg-[#1d3b61] border-[#1d3b61] h-auto max-[425px]:fixed max-[425px]:top-[93px] max-[425px]:h-full  xl:sticky  xl:h-[100vh] lg:fixed lg:h-[100vh] top-[64px] left-0 transform transition-all duration-300 ${isOpen ? 'translate-x-0' : '-translate-x-full'} `}>
+        <div className={`bg-[#1d3b61] border-[#1d3b61] h-auto max-[425px]:fixed max-[425px]:top-[63px] max-[425px]:h-full  xl:sticky  xl:h-[100vh] lg:fixed lg:h-[100vh] top-[64px] left-0 transform transition-all duration-300 ${isOpen ? 'translate-x-0' : '-translate-x-full'} max-[425px]:z-50 sm:z-50 lg:z-0 sm:fixed sm:top-[63px] sm:h-[100vh]`} >
             {/* user profile section  */}
             <div className={`${isOpen ? 'w-[270px]' : 'hidden'}`}>
                 <div className='px-[20px] flex justify-between items-center h-[60px] border-[white] border-b-[1px] text-white'>

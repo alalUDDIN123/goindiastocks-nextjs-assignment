@@ -6,10 +6,10 @@ const MarketStore = () => {
 
 
     return (
-        <div className='ml-[20px] max-[425px]:ml-0 max-[425px]:pl-2 w-full mb-9'>
+        <div className='ml-[20px] max-[425px]:ml-0 max-[425px]:pl-2 w-full mb-9 sm:w-[80%] sm:m-auto sm:mb-12 lg:m-0'>
             <h1 className='text-[17px] font-bold font-sans uppercase text-red-500 ml-6  mt-2' >Market Stories</h1>
 
-            <div className={`mt-[41.5px] px-6 __marketStyle w-full h-[600px] max-[425px]:h-auto overflow-y-auto max-[425px]:overflow-y-visible --marketScroll`} >
+            <div className={`mt-[41.5px] px-6 __marketStyle w-full h-[600px] max-[425px]:h-auto overflow-y-auto max-[425px]:overflow-y-visible --marketScroll sm:h-auto lg:h-auto xl:h-[600px] `} >
                 {market?.map((item) => (
                     <div key={item.id} className='relative w-full h-60 max-h-[50]'>
                         <Image

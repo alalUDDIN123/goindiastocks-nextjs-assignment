@@ -5,7 +5,7 @@ import MarketStore from './MarketStore'
 
 const MainContainer = () => {
     return (
-        <div className='flex max-[425px]:flex-col w-full m-0 p-0'>
+        <div className='flex max-[425px]:flex-col sm:flex-col lg:flex-row w-full m-0 p-0'>
             <SideBar />
             <Feed />
             <MarketStore />

@@ -16,7 +16,7 @@ function Navbar() {
                 <title>NextJS || Assignment | go india stock</title>
                 <link rel="icon" href="/logo.png" />
             </Head>
-            <nav className='sticky top-0 left-0 bg-white z-10 flex justify-between items-center h-16 bg-white-800 shadow-md lg:px-10 sm:px-6 py-3; max-[425px]:px-3' >
+            <nav className='sticky top-0 left-0 bg-white z-10 flex justify-between items-center h-16 bg-white-800 shadow-md lg:px-10 sm:px-2  py-3 max-[425px]:px-3' >
                 {/* for logo */}
                 <div className='h-10 flex items-center'>
                     <Image src="/logo.png" alt="goIndiaStack"
@@ -29,7 +29,7 @@ function Navbar() {
                 </div>
 
                 {/* search bar  */}
-                <div className='flex items-center justify-between border  bg-gray-200 border-t-2 border-gray-300 rounded-md px-2 py-1 w-2/4 sm:w-1/3 md:w-1/2 lg:w-2/5 xl:w-3/6 '>
+                <div className='flex items-center justify-between border  bg-gray-200 border-t-2 border-gray-300 rounded-md px-2 py-1 w-2/4 sm:w-1/3 md:w-[40%] lg:w-2/5 xl:w-3/6 '>
                     <div className='flex-grow'>
                         <input type="text"
                             className='border-none outline-none  bg-gray-200 text-black px-2 py-1 text-base w-full h-full'
