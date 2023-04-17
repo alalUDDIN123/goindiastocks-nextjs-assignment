@@ -15,7 +15,7 @@ This is a responsive NextJS static web page built with Tailwind CSS. On this pag
 2. Install `npm` by running the command `npm i`.
 3. Open the code on VS Code or any editor or in the terminal.
 4. Run the command `npm run dev`.
-5. [Click here](https://nextjsassignment.vercel.app/)
+5. Open your terminal url or running port on any browser
 
 That's it! With these simple steps, you can run this project locally on your machine and start exploring its features.
 ---
