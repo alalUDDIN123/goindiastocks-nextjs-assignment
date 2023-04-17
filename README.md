@@ -1,4 +1,4 @@
-# Welcome to NextJS Responsive Static Page Design
+# Welcome to NextJS Responsive Static Page Site
 
 ## Introduction
 I am Alal Uddin, a passionate Full Stack Web developer from India. I'm passionate about solving technical problems and researching and developing new sites and technologies. I undertake and challenge myself to always improve, by being proactive, responsible, and committed to finding the perfect solution to any problem. 😊😊
