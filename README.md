@@ -6,7 +6,7 @@ I am Alal Uddin, a passionate Full Stack Web developer from India. I'm passionat
 ## Overview of the site
 This is a responsive NextJS static web page built with Tailwind CSS. On this page, you'll find a clean and modern design that is fully responsive and looks great on all devices. 
 
-## Demo and Video
+## Demo 
 - [Live Demo](https://nextjsassignment.vercel.app/)
 
 
